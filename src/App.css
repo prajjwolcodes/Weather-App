@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.container {
+    background-color: #87CEFA;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica, sans-serif;
+}
+
+.weather-app {
+    text-align: center;
+    background-color: #fff;
+    width: 500px;
+    height: 65vh;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.heading {
+    text-align: center;
+    flex: 1;
+    font-size: 30px;
+}
+
+.weather-img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+hr {
+    height: 1px;
+    background-color: black;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 5px;
+    width: 77%;
+    box-shadow: -3px 3px 5px rgb(206, 199, 199);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.temp {
+    font-size: 50px;
+    margin: 59px auto 5px;
+    line-height: 50px;
+}
+
+.wind {
+    position: absolute;
+    bottom: 15px;
+    left: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.cloud {
+    position: absolute;
+    bottom: 15px;
+    right: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.wind h3,
+.wind h2,
+.cloud h2,
+.cloud h3 {
+    margin: 0;
+}
+
+.wind h3,
+.cloud h3 {
+    color: rgb(46, 42, 42);
+}
+
+.wind h2,
+.cloud h2 {
+    font-style: italic;
+}
+
+.city {
+    margin-top: 7px;
+    font-size: 28px;
+}
+
+.circle {
+    border: 2px solid rgb(6, 171, 248);
+    border-radius: 50%;
+    height: 225px;
+    width: 225px;
+    margin: 40px auto;
+}
